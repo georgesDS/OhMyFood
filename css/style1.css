@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto;
+}
+
+a {
+    text-decoration: none;
+}
+/*---------header-------------*/
+
+.conteneur-logo {
+    padding: 18px 18px 7px 18px;
+    text-align: center;
+}
+
+.conteneur-logo a{
+    position: absolute;
+    left: 18px;
+    top: 20px;
+}
+
+.conteneur-logo i {
+    color: black;
+   font-size: 15px;
+}
+
+.conteneur-logo img {
+    width: 50%;
+    max-width: 300px;                   // pour les medias queries
+}
+/*--------------main-----------*/
+
+main {
+  background-image: url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash-mobile.jpg");
+
+  background-size: contain;
+  background-color: #cccccc;
+  padding-top: 160px;
+} 
+
+.choices{
+    border-radius: 35px 35px 0 0;
+    background-color:#f2f2f2;
+    padding: 8px;
+}
+
+.choices .titre1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-family: Shrikhand;
+    font-size: 23px;
+    font-weight: normal;
+}
+
+.fa-heart {
+    padding-right: 20px;
+    color: grey;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 13px;
+    color: grey;
+    font-weight: normal;
+    margin: 5px 0 0 0;
+}
+
+.underline {
+    width: 30px;
+    height: 3px;
+    border-bottom: 3px solid #99E2D0;
+    margin-bottom: 3px;
+}
+
+.choix {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    color: black;
+    padding: 9px;
+    border-radius: 13px;
+    box-shadow: 0 4px 8px 0 lightgrey;
+    margin: 8px 0;
+    max-width: 375px;                   // pour les medias queries
+}
+
+.choix h4{
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0px;
+    text-align: left;
+}
+
+.choix .icone {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4px;
+}
+
+.choix .icone p{
+    font-size: 12px;
+    margin: 0;
+}
+
+.choix .icone span{
+    font-weight: bold;
+    font-size: 11px;
+    margin-right: 10px;
+}
+
+.choix .icone i{
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 30px;
+    align-self: center;
+}
+
+#bouton_commander {
+    background-color: #FF79DA;
+    color: white;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 lightgrey;
+    padding: 11px;
+    font-size: 13px;
+    width: 150px;
+}
+
+#commander {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+/*--------------FOOTER---------------*/
+footer {
+    background: #3d3838;
+    color: white;
+    padding: 5px 20px;
+}
+
+#footer_logo{
+    font-size: 15px;
+    font-family: Shrikhand;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav p{
+    font-size: 13px;
+    color: white;
+    padding: 0px 0px 5px 0px;
+    margin: 0px;
+    font-weight: 500;
+}
+
+nav a .icone{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 12px;
+}
+
+nav span {
+    width: 20px;
+}
+
+.fa-solid {
+    font-size: 10px;
+}
+
+
+/*--------------MEDIAS QUERIES TABELETTE & DESKTOP-------------*/
+
+@media all and (min-width: 769px) {
+
+    .conteneur-logo i {
+        font-size: 30px;
+    }
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .choix {
+    margin: 15px;
+    width: 225px;
+    }
+
+}
+
+
+

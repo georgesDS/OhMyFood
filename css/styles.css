@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+/* header*/
+
+.conteneur-logo {
+    padding: 15px 0 7px 0;
+    text-align: center;
+}
+
+.conteneur-logo img {
+    width: 45%;
+    max-width: 300px;                   // pour les medias queries
+}
+
+/*Main*/
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e5e5;
+    padding: 1px;
+    border-top: 3px solid #cccccc;
+}
+
+.info p {
+    margin: 10px;
+    font-size: 13px;
+}
+
+h3 {
+    font-family: Shrikhand, sans-serif;
+}
+
+#Exploration {
+    text-align: center;
+    padding: 30px 15px;
+    background-color: #f6f6f6;
+}
+
+#Exploration h2 {
+    font-size: 20px;
+    padding: 0 28px;
+    margin: 0;
+}
+
+#Exploration p {
+    color: grey;
+    font-size: 14px;
+}
+
+#bouton_explorer {
+    background-color: #FF79DA;
+    color: white;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 lightgrey;
+    padding: 10px 15px;
+    font-size: 13px;
+    margin: 8px;
+}
+
+main h2 {
+    font-size: 20px;
+}
+
+.fonctionnement {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px 40px 15px;
+}
+
+.fonctionnement h2 {
+    margin-bottom: 10px;
+}
+
+.choix {
+    display: flex;
+    margin: 10px 0 18px 10px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 lightgrey;
+    border-color: lightgrey;
+    background-color: #f6f6f6;
+    max-width: 375px;                   // pour les medias queries
+}
+
+.choix span{
+    padding: 4px 6px;
+    font-size: 9px;
+
+}
+
+.nbre {
+    align-self: center;
+    background-color: #9356DC;
+    color: white;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-left: -20px;
+    font-weight: bold;
+}
+
+.choix p {
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.choix i {
+    align-self: center;
+}
+
+.fa-mobile-screen, .fa-list {
+    color: grey;
+}
+
+.fa-store {
+    color: #9356DC;
+}
+
+.restaurants {
+    padding: 25px 15px 30px 15px;
+    background-color: #f6f6f6;
+}
+
+.restaurants h2 {
+    margin-bottom: 20px;
+}
+
+.card {
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px 0 lightgrey;
+    max-width: 400px;                   // pour les medias queries
+}
+
+.card img {
+    box-sizing: border-box;
+    object-fit: cover;
+    width: 100%;
+    height: 130px;
+    border-radius: 13px 13px 0px 0px;
+}
+
+.card span{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    padding: 6px;
+    font-weight: bold;
+    color: gray;
+    background-color: #99E2D0;
+    font-size: 11px;
+    color: green;
+}
+.desc_resto{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.card .icone{
+    align-self: center;
+}
+
+.desc_resto h4 {
+    font-weight: bolder;
+    font-size: 15px;
+    margin: 0;
+    padding-bottom: 2px;
+    color: black;
+}
+
+.desc_resto p {
+    margin: 0;
+    font-weight: normal;
+    font-size: 14px;
+    color: grey;
+}
+
+.desc_resto i {
+    color: grey;
+}
+
+/*--------------FOOTER---------------*/
+footer {
+    background: #3d3838;
+    color: white;
+    padding: 5px 20px;
+}
+
+#footer_logo{
+    font-size: 15px;
+    font-family: Shrikhand;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav p{
+    font-size: 13px;
+    color: white;
+    padding: 0px 0px 5px 0px;
+    margin: 0px;
+    font-weight: 500;
+}
+
+nav a .icone{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 12px;
+}
+
+nav span {
+    width: 20px;
+}
+
+.fa-solid {
+    font-size: 10px;
+}
+
+
+/*--------------MEDIAS QUERIES-------------*/
+/*--------------TABELETTE & DESKTOP------------*/
+
+@media all and (min-width: 769px) {
+
+    .box_choix {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .choix {
+    margin: 15px;
+    width: 225px; 
+    }
+
+    .box_cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card {
+    margin: 15px;
+    width: 275px;
+    }
+
+}
+
